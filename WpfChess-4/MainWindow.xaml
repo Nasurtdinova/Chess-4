@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfChess_4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1000" Width="1000">
-    <Grid>
+        Title="MainWindow" Height="2277.108" Width="2373.494">
+    <Grid Cursor="No">
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition />
@@ -28,24 +28,104 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="textBlock" Grid.Column="0" Grid.ColumnSpan="4" />
-        <Button Grid.Column="0" Grid.Row="0" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="1" Grid.Row="0" Background="#FF994517"></Button>
-        <Button Grid.Column="2" Grid.Row="0" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="3" Grid.Row="0" Background="#FF994517"></Button>
-        <Button Grid.Column="4" Grid.Row="0" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="5" Grid.Row="0" Background="#FF994517"></Button>
-        <Button Grid.Column="6" Grid.Row="0" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="7" Grid.Row="0" Background="#FF994517"></Button>
+        <Button Grid.Column="0" Grid.Row="0" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="turka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="1" Grid.Row="0" Background="#FF994517" Click="Button_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="kon-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="2" Grid.Row="0" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="elephant-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="3" Grid.Row="0" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="ferz-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="4" Grid.Row="0" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="korol-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="5" Grid.Row="0" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="elephant-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="6" Grid.Row="0" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="kon-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="7" Grid.Row="0" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="turka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
 
-        <Button Grid.Column="0" Grid.Row="1" Background="#FF994517"></Button>
-        <Button Grid.Column="1" Grid.Row="1" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="2" Grid.Row="1" Background="#FF994517"></Button>
-        <Button Grid.Column="3" Grid.Row="1" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="4" Grid.Row="1" Background="#FF994517"></Button>
-        <Button Grid.Column="5" Grid.Row="1" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="6" Grid.Row="1" Background="#FF994517"></Button>
-        <Button Grid.Column="7" Grid.Row="1" Background="#FFF0E0D8"></Button>
-        
+        <Button Grid.Column="0" Grid.Row="1" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="1" Grid.Row="1" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="2" Grid.Row="1" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="3" Grid.Row="1" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="4" Grid.Row="1" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="5" Grid.Row="1" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="6" Grid.Row="1" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="7" Grid.Row="1" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+
         <Button Grid.Column="0" Grid.Row="2" Background="#FFF0E0D8"></Button>
         <Button Grid.Column="1" Grid.Row="2" Background="#FF994517" ></Button>
         <Button Grid.Column="2" Grid.Row="2" Background="#FFF0E0D8"></Button>
@@ -54,7 +134,7 @@
         <Button Grid.Column="5" Grid.Row="2" Background="#FF994517"></Button>
         <Button Grid.Column="6" Grid.Row="2" Background="#FFF0E0D8"></Button>
         <Button Grid.Column="7" Grid.Row="2" Background="#FF994517"></Button>
-        
+
         <Button Grid.Column="0" Grid.Row="3" Background="#FF994517"></Button>
         <Button Grid.Column="1" Grid.Row="3" Background="#FFF0E0D8"></Button>
         <Button Grid.Column="2" Grid.Row="3" Background="#FF994517"></Button>
@@ -72,7 +152,7 @@
         <Button Grid.Column="5" Grid.Row="4" Background="#FF994517"></Button>
         <Button Grid.Column="6" Grid.Row="4" Background="#FFF0E0D8"></Button>
         <Button Grid.Column="7" Grid.Row="4" Background="#FF994517"></Button>
-        
+
         <Button Grid.Column="0" Grid.Row="5" Background="#FF994517"></Button>
         <Button Grid.Column="1" Grid.Row="5" Background="#FFF0E0D8"></Button>
         <Button Grid.Column="2" Grid.Row="5" Background="#FF994517"></Button>
@@ -82,22 +162,97 @@
         <Button Grid.Column="6" Grid.Row="5" Background="#FF994517"></Button>
         <Button Grid.Column="7" Grid.Row="5" Background="#FFF0E0D8"></Button>
 
-        <Button Grid.Column="0" Grid.Row="6" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="1" Grid.Row="6" Background="#FF994517"></Button>
-        <Button Grid.Column="2" Grid.Row="6" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="3" Grid.Row="6" Background="#FF994517"></Button>
-        <Button Grid.Column="4" Grid.Row="6" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="5" Grid.Row="6" Background="#FF994517"></Button>
-        <Button Grid.Column="6" Grid.Row="6" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="7" Grid.Row="6" Background="#FF994517"></Button>
-        
-        <Button Grid.Column="0" Grid.Row="7" Background="#FF994517"></Button>
-        <Button Grid.Column="1" Grid.Row="7" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="2" Grid.Row="7" Background="#FF994517"></Button>
+        <Button Grid.Column="0" Grid.Row="6" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka1-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="1" Grid.Row="6" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka1-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="2" Grid.Row="6" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka1-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="3" Grid.Row="6" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka1-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="4" Grid.Row="6" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka1-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="5" Grid.Row="6" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka1-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="6" Grid.Row="6" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka1-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="7" Grid.Row="6" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="peshka1-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+
+        <Button Grid.Column="0" Grid.Row="7" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="turka-removebg-preview (1).png" Margin="0,0,5,0" Width="302" Height="311" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="1" Grid.Row="7" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="kon-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="2" Grid.Row="7" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="elephant-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
         <Button Grid.Column="3" Grid.Row="7" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="4" Grid.Row="7" Background="#FF994517"></Button>
-        <Button Grid.Column="5" Grid.Row="7" Background="#FFF0E0D8"></Button>
-        <Button Grid.Column="6" Grid.Row="7" Background="#FF994517"></Button>
-        <Button Grid.Column="7" Grid.Row="7" Background="#FFF0E0D8"></Button>
+        <Button Grid.Column="4" Grid.Row="7" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="korol1-removebg-preview (1).png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="5" Grid.Row="7" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="elephant-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="6" Grid.Row="7" Background="#FF994517">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="kon-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Column="7" Grid.Row="7" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="turka-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
     </Grid>
 </Window>
