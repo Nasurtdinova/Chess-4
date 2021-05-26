@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfChess_4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="2277.108" Width="2373.494">
+        Title="MainWindow" Height="2177.108" Width="2265.494">
     <Grid Cursor="No">
         <Grid.RowDefinitions>
             <RowDefinition />
@@ -213,23 +213,28 @@
 
         <Button Grid.Column="0" Grid.Row="7" Background="#FF994517">
             <StackPanel Orientation="Horizontal">
-                <Image Source="turka-removebg-preview (1).png" Margin="0,0,5,0" Width="302" Height="311" />
+                <Image Source="turka1-removebg-preview.png" Margin="0,0,5,0" />
                 <TextBlock Text="Button"/>
             </StackPanel>
         </Button>
         <Button Grid.Column="1" Grid.Row="7" Background="#FFF0E0D8">
             <StackPanel Orientation="Horizontal">
-                <Image Source="kon-removebg-preview.png" Margin="0,0,5,0" />
+                <Image Source="kon1-removebg-preview.png" Margin="0,0,5,0" />
                 <TextBlock Text="Button"/>
             </StackPanel>
         </Button>
         <Button Grid.Column="2" Grid.Row="7" Background="#FF994517">
             <StackPanel Orientation="Horizontal">
-                <Image Source="elephant-removebg-preview.png" Margin="0,0,5,0" />
+                <Image Source="slon1-removebg-preview.png" Margin="0,0,5,0" />
                 <TextBlock Text="Button"/>
             </StackPanel>
         </Button>
-        <Button Grid.Column="3" Grid.Row="7" Background="#FFF0E0D8"></Button>
+        <Button Grid.Column="3" Grid.Row="7" Background="#FFF0E0D8">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="ferz1-removebg-preview.png" Margin="0,0,5,0" />
+                <TextBlock Text="Button"/>
+            </StackPanel>
+        </Button>
         <Button Grid.Column="4" Grid.Row="7" Background="#FF994517">
             <StackPanel Orientation="Horizontal">
                 <Image Source="korol1-removebg-preview (1).png" Margin="0,0,5,0" />
@@ -238,19 +243,19 @@
         </Button>
         <Button Grid.Column="5" Grid.Row="7" Background="#FFF0E0D8">
             <StackPanel Orientation="Horizontal">
-                <Image Source="elephant-removebg-preview.png" Margin="0,0,5,0" />
+                <Image Source="slon1-removebg-preview.png" Margin="0,0,5,0" />
                 <TextBlock Text="Button"/>
             </StackPanel>
         </Button>
         <Button Grid.Column="6" Grid.Row="7" Background="#FF994517">
             <StackPanel Orientation="Horizontal">
-                <Image Source="kon-removebg-preview.png" Margin="0,0,5,0" />
+                <Image Source="kon1-removebg-preview.png" Margin="0,0,5,0" />
                 <TextBlock Text="Button"/>
             </StackPanel>
         </Button>
         <Button Grid.Column="7" Grid.Row="7" Background="#FFF0E0D8">
             <StackPanel Orientation="Horizontal">
-                <Image Source="turka-removebg-preview.png" Margin="0,0,5,0" />
+                <Image Source="turka1-removebg-preview.png" Margin="0,0,5,0" />
                 <TextBlock Text="Button"/>
             </StackPanel>
         </Button>

@@ -126,5 +126,23 @@
   <ItemGroup>
     <Resource Include="turka-removebg-preview %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kon1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="slon1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="turka1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ferz1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassCore\ClassCore.csproj">
+      <Project>{0318ba9b-90bd-4a56-a69b-755173081b9f}</Project>
+      <Name>ClassCore</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
