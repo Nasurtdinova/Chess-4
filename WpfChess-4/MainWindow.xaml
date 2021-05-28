@@ -160,7 +160,7 @@
         <Button Grid.Column="4" Grid.Row="5" Background="#FF994517"></Button>
         <Button Grid.Column="5" Grid.Row="5" Background="#FFF0E0D8"></Button>
         <Button Grid.Column="6" Grid.Row="5" Background="#FF994517"></Button>
-        <Button Grid.Column="7" Grid.Row="5" Background="#FFF0E0D8"></Button>
+        <Button Grid.Column="7" Grid.Row="5" Background="#FFF0E0D8" Click="Button_Click_2"></Button>
 
         <Button Grid.Column="0" Grid.Row="6" Background="#FFF0E0D8">
             <StackPanel Orientation="Horizontal">
