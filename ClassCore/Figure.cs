@@ -15,7 +15,19 @@ namespace ClassCore
             Y = y1;
         }
 
-        public virtual bool Move(int x2, int y2)
+        public bool Move(int x2, int y2)
+        {
+            if (CanMove(x2, y2))
+            {
+                X = x2;
+                Y = y2;
+                return true;
+            }
+            else
+                return false;
+        }
+
+        public virtual bool CanMove(int x2, int y2)
         {
             return false;
         }
@@ -25,7 +37,7 @@ namespace ClassCore
     {
         public King(int newX, int newY) : base(newX, newY) { }
 
-        public override bool Move(int newX, int newY)
+        public override bool CanMove(int newX, int newY)
         {
             if ((Math.Abs(newX - X) <= 1) && (Math.Abs(newY - Y) <= 1))
             {
@@ -45,7 +57,7 @@ namespace ClassCore
     {
         public Queen(int newX, int newY) : base(newX, newY) { }
 
-        public override bool Move(int newX, int newY)
+        public override bool CanMove(int newX, int newY)
         {
             if ((X == newX) || (Y == newY) || (Math.Abs(X - newX) == Math.Abs(Y - newY)))
             {
@@ -64,7 +76,7 @@ namespace ClassCore
     {
         public Rook(int newX, int newY) : base(newX, newY) { }
 
-        public override bool Move(int newX, int newY)
+        public override bool CanMove(int newX, int newY)
         {
             if (X == newX || Y == newY)
             {
@@ -83,7 +95,7 @@ namespace ClassCore
     {
         public Bishop(int newX, int newY) : base(newX, newY) { }
 
-        public override bool Move(int newX, int newY)
+        public override bool CanMove(int newX, int newY)
         {
             if ((Math.Abs(newX - X) == Math.Abs(newY - Y)))
             {
@@ -102,7 +114,7 @@ namespace ClassCore
     {
         public Knight(int newX, int newY) : base(newX, newY) { }
 
-        public override bool Move(int newX, int newY)
+        public override bool CanMove(int newX, int newY)
         {
             if ((Math.Abs(X - newX) == 2) && (Math.Abs(Y - newY) == 1) ||
                 (Math.Abs(X - newX) == 1) && (Math.Abs(Y - newY) == 2))

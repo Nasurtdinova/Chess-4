@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using ClassCore;
+using Figure = ClassCore.Figure;
 
 namespace WpfChess_4
 {
@@ -21,12 +22,24 @@ namespace WpfChess_4
     
     public partial class MainWindow : Window
     {
+        private Button[,] cells = new Button[8, 8];
         public MainWindow()
         {
             InitializeComponent();
+
+            lbFiguresDate.ItemsSource = FigureFab.InitFiguresData();
+
+            chessBoard.Rows = 8;
+            chessBoard.Columns = 8;
+
+
+
            
         }
 
-        
+    
+
+       
     }
 }
+

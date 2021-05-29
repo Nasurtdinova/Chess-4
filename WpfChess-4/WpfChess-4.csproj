@@ -94,51 +94,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="turka.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="turka-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="kon-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="elephant-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="ferz-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="korol-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="korol1-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="peshka-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="peshka1-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="korol1-removebg-preview %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="turka-removebg-preview %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="kon1-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="slon1-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="turka1-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="ferz1-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ClassCore\ClassCore.csproj">
       <Project>{0318ba9b-90bd-4a56-a69b-755173081b9f}</Project>
       <Name>ClassCore</Name>
