@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfChess_4" xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="818.083" Width="1000.494">
+        Title="MainWindow" Height="792.083" Width="1448.394">
     <Grid HorizontalAlignment="Left" Width="1000" Margin="10,0,-2583,0">
         <Grid.RenderTransform>
             <TransformGroup>
@@ -15,72 +15,14 @@
             </TransformGroup>
         </Grid.RenderTransform>
 
-        <Button  HorizontalAlignment="Left" Margin="50,54,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="125,54,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="200,54,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="275,54,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button HorizontalAlignment="Left" Margin="350,54,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="425,54,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="500,54,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="575,54,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="50,129,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="125,129,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="200,129,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="275,129,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="350,129,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="425,129,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="500,129,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="575,129,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="50,204,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="125,204,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="200,204,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button HorizontalAlignment="Left" Margin="275,204,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button HorizontalAlignment="Left" Margin="425,204,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button HorizontalAlignment="Left" Margin="575,204,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button HorizontalAlignment="Left" Margin="50,279,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button HorizontalAlignment="Left" Margin="200,279,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button HorizontalAlignment="Left" Margin="350,279,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="500,279,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="350,204,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="500,204,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="125,279,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="275,279,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="425,279,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="575,279,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="125,354,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="275,354,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button HorizontalAlignment="Left" Margin="425,354,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="575,354,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="200,354,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="350,354,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="500,354,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="50,354,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button HorizontalAlignment="Left" Margin="125,429,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="275,429,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="425,429,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="575,429,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="50,429,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="200,429,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="350,429,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="500,429,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="50,504,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="200,504,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button HorizontalAlignment="Left" Margin="350,504,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button HorizontalAlignment="Left" Margin="500,504,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button x:Name="btn_X2Y2"  HorizontalAlignment="Left" Margin="125,504,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F" Click="btn_X2Y2_Click"/>
-        <Button  HorizontalAlignment="Left" Margin="275,504,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="425,504,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="575,504,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="50,579,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="200,579,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="350,579,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button  HorizontalAlignment="Left" Margin="500,579,0,0" VerticalAlignment="Top" Width="70" Height="70"  Background="#FF993F3F"/>
-        <Button HorizontalAlignment="Left" Margin="125,579,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="275,579,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="425,579,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <Button  HorizontalAlignment="Left" Margin="575,579,0,0" VerticalAlignment="Top" Width="70" Height="70" Background="White"/>
-        <ListBox x:Name="lbFiguresDate" HorizontalAlignment="Left" Height="220" Margin="732,429,0,0" VerticalAlignment="Top" Width="164"/>
+        <DockPanel LastChildFill="False" Margin="0,0,-430,0">
+            <UniformGrid x:Name="chessDeck" Margin="0,0,-842,0" >
 
+            </UniformGrid>
+            <ListBox x:Name="lbFiguresDate" HorizontalAlignment="Left" Height="190" Margin="1200,287,-388,0" VerticalAlignment="Top" Width="188"/>
+            <StackPanel x:Name="spWin" Height="761" VerticalAlignment="Top" Width="194"/>
+            <Button x:Name="btnClear" Content="Clear" Height="51" VerticalAlignment="Top" Width="189" Margin="0,206,0,0" RenderTransformOrigin="0.857,0.02" Background="#FFE67E7E" />
+        </DockPanel>
     </Grid>
 
 </Window>

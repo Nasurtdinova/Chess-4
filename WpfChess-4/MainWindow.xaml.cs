@@ -19,47 +19,85 @@ namespace WpfChess_4
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-
     public partial class MainWindow : Window
     {
+        public Button prevButton;
         private Button[,] cells = new Button[8, 8];
         public MainWindow()
         {
             InitializeComponent();
-
+            chessDeck.Rows = 8;
+            chessDeck.Columns = 8;
             lbFiguresDate.ItemsSource = FigureFab.InitFiguresData();
-
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                { 
+                    cells[i, j] = new Button();
+                    cells[i, j].Click += OnFigurePress;
+                    chessDeck.Children.Add(cells[i, j]);
+                    if ((i + j) % 2 == 0)
+                    {
+                        cells[i, j].Background = Brushes.White;
+                    }
+                    else
+                        cells[i, j].Background = Brushes.Brown;
+                }
+            }
         }
-        private void btnContent()
+        private void btnContent(Button name)
         {
             var fig = lbFiguresDate.SelectedItem as FiguresData;
             switch (fig.Name)
             {
                 case "Knight":
-                    btn_X2Y2.Content = "K";
+                    name.Content = "Kn";
                     break;
                 case "Bishop":
-                    btn_X2Y2.Content = "B";
+                    name.Content = "B";
                     break;
                 case "Rook":
-                    btn_X2Y2.Content = "R";
+                    name.Content = "R";
                     break;
                 case "Queen":
-                    btn_X2Y2.Content = "Q";
+                    name.Content = "Q";
                     break;
                 case "King":
-                    btn_X2Y2.Content = "Ki";
+                    name.Content = "Ki";
                     break;
             }
         }
-      
-        private void btn_X2Y2_Click(object sender, RoutedEventArgs e)
+
+        public void OnFigurePress(object sender, EventArgs e)
         {
-            btnContent();
+            if (prevButton != null)
+            {
+                prevButton.Content = "";
+            }
+
+            Button pressedButton = sender as Button;
+            
+            prevButton = pressedButton;
+            btnContent(prevButton);
+            
+            var fig = FigureFab.Make(lbFiguresDate.SelectedItem as FiguresData);
+            MessageBox.Show($"{(fig.CanMove(5, 7) ? "YES" : "NO")}");
+        }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    cells[i, j].Content = "";
+                }
+            }
         }
     }
 
 }
+
 
     
 
