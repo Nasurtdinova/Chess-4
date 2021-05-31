@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfChess_4" xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="792.083" Width="1448.394">
+        Title="MainWindow" Height="792.083" Width="1538.394">
     <Grid HorizontalAlignment="Left" Width="1000" Margin="10,0,-2583,0">
         <Grid.RenderTransform>
             <TransformGroup>
@@ -14,15 +14,31 @@
                 </ScaleTransform>
             </TransformGroup>
         </Grid.RenderTransform>
+        <Canvas Height="761" VerticalAlignment="Top" Margin="-36,0,-814,0">
+            <DockPanel LastChildFill="False" Margin="0,0,-528,0">
+                <UniformGrid x:Name="chessDeck" Margin="0,0,-842,0" >
 
-        <DockPanel LastChildFill="False" Margin="0,0,-430,0">
-            <UniformGrid x:Name="chessDeck" Margin="0,0,-842,0" >
+                </UniformGrid>
+                <ListBox x:Name="lbFiguresDate" HorizontalAlignment="Left" Height="190" Margin="1200,287,-388,0" VerticalAlignment="Top" Width="188"/>
+                <StackPanel x:Name="spWin" Height="41" VerticalAlignment="Top" Width="194" Margin="0,74,0,0">
 
-            </UniformGrid>
-            <ListBox x:Name="lbFiguresDate" HorizontalAlignment="Left" Height="190" Margin="1200,287,-388,0" VerticalAlignment="Top" Width="188"/>
-            <StackPanel x:Name="spWin" Height="761" VerticalAlignment="Top" Width="194"/>
-            <Button x:Name="btnClear" Content="Clear" Height="51" VerticalAlignment="Top" Width="189" Margin="0,206,0,0" RenderTransformOrigin="0.857,0.02" Background="#FFE67E7E" />
-        </DockPanel>
+
+
+                </StackPanel>
+                <Button x:Name="btnClear" Content="Clear" Height="51" VerticalAlignment="Top" Width="189" Margin="0,206,0,0" RenderTransformOrigin="0.857,0.02" Background="#FFE67E7E" Click="btnClear_Click" />
+
+            </DockPanel>
+            <TextBox x:Name="TBX1" Height="45" Canvas.Left="1196" TextWrapping="Wrap" Canvas.Top="49" Width="120"/>
+            <TextBox x:Name="TBY1" Height="43" Canvas.Left="1196" TextWrapping="Wrap" Canvas.Top="131" Width="120"/>
+            <Label x:Name="lbX1" Content="X1" Canvas.Left="1364" Canvas.Top="68"/>
+            <Label x:Name="lbY1" Content="Y1" Canvas.Left="1364" Canvas.Top="148"/>
+            <Button x:Name="btnOk" Content="OK" Canvas.Left="1048" Canvas.Top="99" Width="75" Click="btnOk_Click"/>
+            <TextBox x:Name="TBX2" Height="45" Canvas.Left="1196" TextWrapping="Wrap" Canvas.Top="525" Width="120"/>
+            <TextBox x:Name="TBY2" Height="43" Canvas.Left="1196" TextWrapping="Wrap" Canvas.Top="609" Width="120"/>
+            <Label x:Name="lbX1_Copy" Content="X2" Canvas.Left="1359" Canvas.Top="544" RenderTransformOrigin="1.333,4.269"/>
+            <Label x:Name="lbY1_Copy" Content="Y2" Canvas.Left="1364" Canvas.Top="626" RenderTransformOrigin="1.217,3.885"/>
+            <Button x:Name="btnOk1" Content="OK" Canvas.Left="1100" Canvas.Top="594" Width="75" Click="btnOk1_Click"/>
+        </Canvas>
     </Grid>
 
 </Window>

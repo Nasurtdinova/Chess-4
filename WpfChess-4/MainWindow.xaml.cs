@@ -32,9 +32,10 @@ namespace WpfChess_4
             for (int i = 0; i < 8; i++)
             {
                 for (int j = 0; j < 8; j++)
-                { 
+                {
                     cells[i, j] = new Button();
-                    cells[i, j].Click += OnFigurePress;
+
+
                     chessDeck.Children.Add(cells[i, j]);
                     if ((i + j) % 2 == 0)
                     {
@@ -42,6 +43,8 @@ namespace WpfChess_4
                     }
                     else
                         cells[i, j].Background = Brushes.Brown;
+
+
                 }
             }
         }
@@ -68,29 +71,55 @@ namespace WpfChess_4
             }
         }
 
-        public void OnFigurePress(object sender, EventArgs e)
-        {
-            if (prevButton != null)
-            {
-                prevButton.Content = "";
-            }
-
-            Button pressedButton = sender as Button;
-            
-            prevButton = pressedButton;
-            btnContent(prevButton);
-            
-            var fig = FigureFab.Make(lbFiguresDate.SelectedItem as FiguresData);
-            MessageBox.Show($"{(fig.CanMove(5, 7) ? "YES" : "NO")}");
-        }
-
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
             for (int i = 0; i < 8; i++)
             {
                 for (int j = 0; j < 8; j++)
                 {
-                    cells[i, j].Content = "";
+                    cells[i, j].Content = String.Empty;
+                }
+            }
+        }
+
+        private void btnOk_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    if ((i == int.Parse(TBX1.Text)-1) && (j == int.Parse(TBY1.Text)-1))
+                    {
+                        if (prevButton != null)
+                        {
+                            prevButton.Content = "";
+                        }
+                        Button pressedButton = cells[i, j];
+
+                        prevButton = pressedButton;
+                        btnContent(prevButton);
+                    }
+                }
+            }
+        }
+
+        private void btnOk1_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    if ((i == int.Parse(TBX2.Text) - 1) && (j == int.Parse(TBY2.Text) - 1))
+                    {
+                        if (prevButton != null)
+                        {
+                            prevButton.Content = "";
+                        }
+                        Button pressedButton = cells[i, j];
+
+                        prevButton = pressedButton;
+                        btnContent(prevButton);
+                    }
                 }
             }
         }
