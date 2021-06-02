@@ -6,8 +6,8 @@ namespace ClassCore
 {
     public class Figure
     {
-        protected int X;
-        protected int Y;
+        public int X;
+        public int Y;
 
         public Figure(int x1, int y1)
         {
